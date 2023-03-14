@@ -35,7 +35,7 @@ main {
 
 .mensagem {
     background: #fff;
-    background-image: url(/img/Boneco.png);
+   
     background-repeat: no-repeat;
     background-position-x: 50px;
     background-position-y: 80px;
@@ -54,7 +54,7 @@ main {
     border: 1px solid #0A3871;
 }
 
-.btn-encriptar {
+.btn-encriptar{
     background: #0A3871;
     border: none;
     color: #fff;

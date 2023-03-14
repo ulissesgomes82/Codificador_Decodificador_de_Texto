@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/style.css">
+
     <title>Encriptador</title>
 </head>
 
@@ -23,15 +24,16 @@
                 <h6>Apenas letras minúsculas e sem acento.</h6>
             </div>
             <div class="botoes">
-                <button class="btn-encriptar">Criptografar</button>
-                <button class="btn-desencriptar">Descriptografar</button>
+                <button onclick="encriptar()" class="btn-encriptar">Criptografar</button>
+                <button onclick="desencriptar()" class="btn-desencriptar">Descriptografar</button>
             </div>
         </section>
         <section>
             <textarea class="mensagem" cols="20" rows="10"></textarea>
-            <button class="btn-copiar">Copiar</button>
+            <button onclick="copiar()" class="btn-copiar">Copiar</button>
         </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

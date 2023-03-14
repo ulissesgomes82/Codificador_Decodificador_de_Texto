@@ -1,6 +1,7 @@
 const texteArea = document.querySelector(".text-area");
 const mensagem = document.querySelector(".mensagem");
 
+texteArea.focus();
 // As "chaves" de criptografia que utilizaremos são:
 // A letra "e" é convertida para "enter"
 // A letra "i" é convertida para "imes"

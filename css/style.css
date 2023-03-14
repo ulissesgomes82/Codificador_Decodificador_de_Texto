@@ -21,18 +21,16 @@ main {
     border: none;
     margin: 50px 80px;
     width: 640px;
-    height: 160px;
+    height: 280px;
 }
 
 ::placeholder {
     padding-left: 10px;
 }
-
-.botoes {
-
-    bottom: 80px;
+section h6{
+    font-size: 16px;
+    color: red;
 }
-
 .mensagem {
     background: #fff;
    
